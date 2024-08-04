@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image: url('foto/foto1.jpg');
+    background-size: cover;
+}
+
+.menu{
+    background-color: white;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    margin: 0px 0px 40px;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+.logo{
+    margin: 2px 40px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--text-color);
+}
+
+.navlist{
+    display: flex;
+}
+
+.navlist li{
+    list-style: none;
+}
+.navlist a{
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 45px;
+    font-size: var(--normal-font);
+    transition: all .36s ease;
+}
+
+.navlist a:hover{
+    color: orange;
+}
+
+
+
